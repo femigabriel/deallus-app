@@ -1,18 +1,18 @@
 import React from "react";
 import FooterSocials from "../Component/FooterSocials";
-// import Form from "../Component/home/Form";
 import FormFooter from "../Component/FormFooter";
 import Header from "../Component/Header";
-import Main from "../Component/home/Main";
+// import SignUpForm from "../Component/sign-up/SignUpForm";
+import SignupMain from "../Component/sign-up/SignupMain";
 
-function index() {
+function signUp() {
   return (
     <div className="">
       <>
         <Header />
-        <Main />
-        {/* <Form /> */}
-        <div className="form-f">
+        <SignupMain />
+        {/* <SignUpForm /> */}
+        <div className="form-f ">
           <FormFooter />
           <FooterSocials />
         </div>
@@ -21,4 +21,4 @@ function index() {
   );
 }
 
-export default index;
+export default signUp;

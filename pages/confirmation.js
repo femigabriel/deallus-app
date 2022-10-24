@@ -1,18 +1,16 @@
 import React from "react";
+import ConfirmMain from "../Component/confirmation/ConfirmMain";
 import FooterSocials from "../Component/FooterSocials";
-// import Form from "../Component/home/Form";
 import FormFooter from "../Component/FormFooter";
 import Header from "../Component/Header";
-import Main from "../Component/home/Main";
 
-function index() {
+function confirmation() {
   return (
-    <div className="">
+    <div>
       <>
         <Header />
-        <Main />
-        {/* <Form /> */}
-        <div className="form-f">
+        <ConfirmMain />
+        <div className="form-f ">
           <FormFooter />
           <FooterSocials />
         </div>
@@ -21,4 +19,4 @@ function index() {
   );
 }
 
-export default index;
+export default confirmation;

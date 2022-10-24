@@ -1,18 +1,16 @@
 import React from "react";
+import ChurchDetails from "../Component/church-details/ChurchDetails";
 import FooterSocials from "../Component/FooterSocials";
-// import Form from "../Component/home/Form";
 import FormFooter from "../Component/FormFooter";
 import Header from "../Component/Header";
-import Main from "../Component/home/Main";
 
-function index() {
+function churchdetails() {
   return (
-    <div className="">
+    <div>
       <>
         <Header />
-        <Main />
-        {/* <Form /> */}
-        <div className="form-f">
+        <ChurchDetails />
+        <div className="form-f ">
           <FormFooter />
           <FooterSocials />
         </div>
@@ -21,4 +19,4 @@ function index() {
   );
 }
 
-export default index;
+export default churchdetails;

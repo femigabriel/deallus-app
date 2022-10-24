@@ -1,17 +1,15 @@
 import React from "react";
+import CongratulationPage from "../Component/CongratulationPage";
 import FooterSocials from "../Component/FooterSocials";
-// import Form from "../Component/home/Form";
 import FormFooter from "../Component/FormFooter";
 import Header from "../Component/Header";
-import Main from "../Component/home/Main";
 
-function index() {
+function congrat() {
   return (
     <div className="">
       <>
         <Header />
-        <Main />
-        {/* <Form /> */}
+        <CongratulationPage />
         <div className="form-f">
           <FormFooter />
           <FooterSocials />
@@ -21,4 +19,4 @@ function index() {
   );
 }
 
-export default index;
+export default congrat;
