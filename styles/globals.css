@@ -309,3 +309,9 @@ label {
   width: 34em;
   text-align: center;
 } */
+.double-input {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  column-gap: 20px;
+  width: 100%;
+}

@@ -2,8 +2,8 @@ import React from "react";
 const lock = "/images/lock.png";
 const eyes = "/images/eyes.png";
 import Link from "next/link";
-import { LockOutlined, UserOutlined } from "@ant-design/icons";
-import { Button, Checkbox, Form, Input } from "antd";
+import { LockOutlined } from "@ant-design/icons";
+import { Form, Input } from "antd";
 
 function ResetPassword() {
   const onFinish = (values) => {
@@ -15,12 +15,12 @@ function ResetPassword() {
         <div className="pt-10 flex justify-center items-center">
           <div className="container pt-10">
             <div className="">
-            <div className="  border-b-2 border-slate-100">
-                <h1 className="uppercase text-black text-center font-medium text-2xl ">
-                reset password
+              <div className="  border-b-2 border-slate-100">
+                <h1 className="uppercase text-black text-center font-medium text-2xl pb-5">
+                  reset password
                 </h1>
               </div>
-             
+
               <div className="flex flex-col p-20">
                 <h1 className="welcome">Reset your password</h1>
                 <p className="">
@@ -91,35 +91,7 @@ function ResetPassword() {
                   </>
                 </Form>
 
-                {/* 
-                <div className="input flex justify-between mb-10">
-                  <div className="flex ">
-                    <img src={lock} className="p-5 reg-avatar" alt="Chart" />
-                    <input type="text" placeholder="New password" />
-                  </div>
-                  <img
-                    src={eyes}
-                    className="p-5 reg-avatar right"
-                    alt="Chart"
-                  />
-                </div>
-                <div className="input flex justify-between mb-10">
-                  <div className="flex ">
-                    <img src={lock} className="p-5 reg-avatar" alt="Chart" />
-                    <input type="text" placeholder="Confirm new password" />
-                  </div>
-                  <img
-                    src={eyes}
-                    className="p-5 reg-avatar right"
-                    alt="Chart"
-                  />
-                </div> */}
                 <div>
-                  {/* <div className="pb-10 pt-20">
-                    <button className=" proceed-btn uppercase p-5 text-white ">
-                      <Link href="/congrat">Confirm Password reset</Link>
-                    </button>
-                  </div> */}
                   <div className="flex justify-between pt-20 pb-10">
                     <a className="login-form-forgot" href="">
                       <Link href="/">Sign in</Link>

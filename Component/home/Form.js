@@ -76,8 +76,21 @@ const App = () => {
               }
             />
           </>
-
           <>
+                    <Form.Item></Form.Item>
+                    <div className="pb-20"></div>
+                    <>
+                      <Form.Item></Form.Item>
+                      <button
+                        type="primary"
+                        htmlType="submit"
+                        className="proceed-btn uppercase p-5 text-white"
+                      >
+                       <Link href="/signUp"> Sign in</Link>
+                      </button>
+                    </>
+                  </>
+          {/* <>
             <Form.Item></Form.Item>
             <button
               type="primary"
@@ -86,19 +99,8 @@ const App = () => {
             >
               <Link href="/signUp"> Sign in</Link>
             </button>
-          </>
-          <div className="flex justify-between">
-            <Form.Item></Form.Item>
-            <Form.Item
-              className=""
-              name="remember"
-              valuePropName="checked"
-              noStyle
-            ></Form.Item>
-          </div>
-          <div className="flex justify-between checked: p-5">
-            <></>
-          </div>
+          </> */}
+       
         </Form>
       </>
       <div className="flex justify-between pb-10">
@@ -106,7 +108,7 @@ const App = () => {
           <Link href="/forgetpassword">I can't login, help me</Link>
         </a>
         <a className="login-form-forgot" href="">
-          <Link href="/signUp">Don't have an account? Sign up here</Link>
+          <Link href="/registration">Don't have an account? Sign up here</Link>
         </a>
       </div>
     </div>
