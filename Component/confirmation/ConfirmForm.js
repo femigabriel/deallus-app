@@ -13,7 +13,7 @@ function ConfirmForm() {
   return (
     <>
       <div className="pl-40 pr-40 flex flex-col">
-        <div className="pb-10 pt-10">
+        <div className="pb-10">
           <Form
             name="normal_login"
             className="login-form flex flex-col"
@@ -43,7 +43,7 @@ function ConfirmForm() {
               </div>
             </>
 
-            <div className=" pt-20">
+            <div className=" pt-10">
               <div className="confrim-box flex p-10">
                 <div className="p-1">
                   <img src={pastor} className=" " alt="Chart" />
@@ -57,7 +57,7 @@ function ConfirmForm() {
           
               <>
                 <Form.Item></Form.Item>
-                <div className="pb-20"></div>
+                <div className="pb-5"></div>
                 <>
                   <Form.Item></Form.Item>
                   <button

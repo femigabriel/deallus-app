@@ -35,7 +35,10 @@ function SignUpForm() {
             </div>
           </div>
         </div>
-        <h2 className="text-center pt-5">Church Staff</h2>
+        {/* <h2 className="text-center pt-5"></h2> */}
+        <h3 className="text-center pt-5 text-blue-800" href="">
+          <Link href="/registration">Church Staff</Link>
+        </h3>
       </div>
     </div>
   );

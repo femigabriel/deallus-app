@@ -96,17 +96,7 @@ function ChurchDetailsForm() {
               <Input
                 placeholder="Church Handle"
                 className=" w-full"
-                // prefix={
-                //   <span
-                //     className="site-form-item-icon pr-5 "
-                //     style={{
-                //       color: "rgba(0,0,0,.25)",
-                //       borderRight: "1px solid",
-                //     }}
-                //   >
-                //     @
-                //   </span>
-                // }
+              
               />
             </div>
             <>
@@ -135,15 +125,7 @@ function ChurchDetailsForm() {
               />
             </>
             <>
-              {/* <Form.Item
-                name="username"
-                rules={[
-                  {
-                    required: false,
-                    message: "Email is required!",
-                  },
-                ]}
-              ></Form.Item> */}
+            
               <div className="w-full pt-20">
                 <label className="left"> Referral ID (optional)</label>
                 <Input
@@ -169,7 +151,7 @@ function ChurchDetailsForm() {
                   htmlType="submit"
                   className="proceed-btn uppercase p-5 mb-20 text-white"
                 >
-                  <Link href="/congrat">submit and get started</Link>
+                  <Link href="/signUp">submit and get started</Link>
                 </button>
               </>
             </>

@@ -133,7 +133,7 @@ function RegForm() {
                         htmlType="submit"
                         className="proceed-btn uppercase p-5 mb-20 text-white"
                       >
-                     <Link href="/congrat">submit and get started</Link>
+                     <Link href="/churchdetails">submit and get started</Link>
                       </button>
                     </>
                   </>

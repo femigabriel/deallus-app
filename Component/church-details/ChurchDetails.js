@@ -10,12 +10,12 @@ function ChurchDetails() {
             <div>
               <div className="  border-b-2 border-slate-100">
                 <h1 className="uppercase text-black text-center font-medium text-2xl pb-5">
-                  Register your church details
+                  Sign up
                 </h1>
               </div>
 
               <div className="flex flex-col p-20 ">
-                <h1 className="welcome pb-5">Welcome back!</h1>
+                <h1 className="welcome pb-5">Register your church details</h1>
                 <p className="">Setup your church basic profile</p>
               </div>
               <ChurchDetailsForm />

@@ -9,7 +9,7 @@ function SignUpRegistration() {
           <div className="container pt-10">
             <div>
               <div className="  border-b-2 border-slate-100">
-                <h1 className="uppercase text-black text-center font-medium text-2xl">
+                <h1 className="uppercase text-black text-center font-medium text-2xl pb-3">
                   sign up
                 </h1>
               </div>
